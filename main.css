@@ -1,0 +1,34 @@
+
+body {
+	padding-top: 50px;
+}
+.play_area {
+	border: solid black 2px;
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.player {
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	position: absolute;
+	top: 100px;
+	left: 90px;
+}
+.projectile {
+	width: 30px;
+	height: 10px;
+	background-color: green;
+	position: absolute;
+	left: -50px;
+}
+
+.menu {
+	text-align: center;
+}
+.score {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
